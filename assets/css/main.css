@@ -1,0 +1,162 @@
+.container {
+	padding: 0px;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+body {
+	height: 1000px;
+}
+
+
+/*  social media styling  */
+
+.social_media {
+	position: fixed;
+	width: 100%;
+	left: 94%;
+	top: 40%;
+	z-index: 1;
+}
+
+.social_media .social_icon {
+	height: 35px;
+	width: 35px;
+	border-radius: 50%;
+	color: white;
+}
+
+.social_media .social_icon i {
+	font-size: 14px;
+}
+
+.social_media .social_icon#fb {
+	background-color: #3b5998;
+}
+
+.social_media .social_icon#gp {
+	background-color: #d34836;
+}
+
+.social_media .social_icon#twt {
+	background-color: #0084b4;
+}
+
+.social_media .social_icon {
+	position: relative;
+	margin-bottom: 1%;
+}
+
+.social_media .social_icon i {
+	position: absolute;
+	top: 30%;
+	left: 33%;
+}
+
+
+/*  preheader styling   */
+
+#preheader {
+	background-color: #05182A;
+	color: white;
+}
+
+#preheader .row {
+	/*    padding-top: 0.4%;*/
+}
+
+#preheader .contact p {
+	font-family: 'Rubik', sans-serif;
+	font-size: 16px;
+	padding: 0.6%;
+	margin: 0%;
+}
+
+#preheader .contact #pre_callno {
+	border-right: 2px solid orange;
+	padding-right: 2%;
+	margin-right: 1%;
+}
+
+
+/*   header css code     */
+
+header {
+	height: 75px;
+	box-shadow: 2px 2px 10px grey;
+}
+
+header .company {
+	position: relative;
+}
+
+header .company #logo {
+	height: 62px;
+	margin-top: 1%;
+}
+
+header .company h3 {
+	color: #2E294E;
+	display: inline;
+	font-family: 'Bree Serif', serif;
+	font-size: 50px;
+	position: absolute;
+	top: -22%;
+	left: 19%;
+}
+
+header #header_menu {
+	padding-left: 4.6%;
+}
+
+header #header_menu ul {
+	margin-top: 6%;
+	list-style: none;
+}
+
+header #header_menu ul li {
+	display: inline-block;
+	margin: 0px 5%;
+	font-size: 19px;
+	font-family: 'Amaranth', sans-serif;
+	position: relative;
+	cursor: pointer;
+}
+
+#header_menu li a {
+	text-decoration: none;
+	color: #2E294E;
+}
+
+header #header_menu ul li:last-child {
+	margin: 0%;
+}
+
+header #header_menu ul li:after {
+	content: "";
+	display: table;
+	height: 2px;
+	width: 80%;
+	background-color: #2E294E;
+	position: absolute;
+	bottom: 0%;
+	left: 0%;
+	transition: 0.4s;
+}
+
+header #header_menu ul li:hover:after {
+	transition: 0.4s;
+	margin-left: 12%;
+}
